@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TechPRO Headsets</title>
+  </head>
+  <body>
+    <!--     Headset principal block / 2 grids-->
+    <header class="header">
+      <pictures>
+        <source
+          size="1920w"
+          srcset="./img/header.avif 1920w"
+          type="image/avif"
+        />
+        <source size="1920w" srcset="./img/header.webp" type="image/webp" />
+        <source size="1920w" srcset="./img/header.jpg 1920w" type="image/png" />
+        <img
+          class="header__img"
+          loading="lazy"
+          decoding="async"
+          src="img/header.png"
+          lazyalt="headet-img"
+        />
+      </pictures>
+      <div class="header__info">
+        <h2>Professional Sound System</h2>
+        <h1 class="gradient-green">TechPRO</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam
+          quod eius. Corporis maiores nam tenetur libero dolorum placeat et.
+          Quaerat optio dignissimos nulla a autem consectetur sed corrupti
+          repellat.
+        </p>
+        <p class="header__p--center">
+          Price <span class="header__span">$299</span>
+        </p>
+      </div>
+    </header>
+    <!--     Headset information / 2 grids -->
+    <div class="product">
+      <section class="productProperties">
+        <div class="productProperties__card">
+          <img
+            class="productProperties__img"
+            src="img/icono-sonido.svg"
+            alt="sound"
+          />
+          <h2>Great Sound</h2>
+          <p>
+            Praesent porttitor facilisis tellus ut feugiat. Suspendisse eros
+            lacus, ultrices dapibus velit ac, tempor aliquet mauris.
+          </p>
+        </div>
+        <div class="productProperties__card">
+          <img
+            class="productProperties__img"
+            src="img/icono-garantia.svg"
+            alt="sound"
+          />
+          <h2>Lifetime Guarantee</h2>
+          <p>
+            Nullam enim leo, interdum ut finibus ac, fermentum non sem. Morbi
+            pharetra quam non elit euismod, eu fringilla ex mattis. 
+          </p>
+        </div>
+        <div class="productProperties__card">
+          <img
+            class="productProperties__img"
+            src="img/icono-bateria.svg"
+            alt="sound"
+          />
+          <h2>+20 Hours Of Battery</h2>
+          <p>
+            Duis eu libero sit amet lectus venenatis fermentum nec lobortis
+            tellus. Quisque ut placerat est, ut dignissim enim. 
+          </p>
+        </div>
+      </section>
+      <section class="aboutProduct">
+        <div class="aboutProduct__content">
+          <h2>About TechPRO</h2>
+          <p>
+            Vivamus tincidunt vehicula libero, imperdiet porta nulla gravida
+            vitae. Fusce pulvinar eros vitae hendrerit posuere. Nunc erat augue,
+            malesuada in arcu eget, eleifend semper est. Nunc ac urna quis justo
+            rhoncus condimentum vel at nisl.
+          </p>
+        </div>
+        <pictures class="grid-1">
+          <source
+            size="1920w"
+            srcset="./img/imagen-mujer.avif 1920w"
+            type="image/avif"
+          />
+          <source
+            size="1920w"
+            srcset="./img/imagen-mujer.webp"
+            type="image/webp"
+          />
+          <source
+            size="1920w"
+            srcset="./img/imagen-mujer.jpg 1920w"
+            type="image/jpg"
+          />
+          <img
+            class="aboutProduct__img"
+            loading="lazy"
+            decoding="async"
+            src="img/imagen-mujer.jpg"
+            lazyalt="headet-img"
+          />
+        </pictures>
+      </section>
+    </div>
+    <!--     Headset models / 1 grid -->
+    <div class="techpro">
+        <h1 class="techpro__h1-title">Our Models 2023</h1>
+        <div class="techpro__models">
+            <div class="techpro__cards">
+                <div class="text">
+                    <h1 class="techpro__h1 gradient-green">TechPRO-X</h1>
+                    <p >$299</p>
+                </div>
+                <img class='techpro__img'src="img/modelo-x.svg" alt="model-x">
+            </div>
+            <div class="techpro__cards">
+                <div>
+                    <h1 class="techpro__h1 gradient-green">TechPRO-Y</h1>
+                    <p>$399</p>
+                </div>
+                <img class='techpro__img'src="img/modelo-y.svg" alt="model-x">
+            </div>
+            <div class="techpro__cards grid-2">
+                <div>
+                    <h1 class="techpro__h1 gradient-green">TechPRO-Z</h1>
+                    <p>$499</p>
+                </div>
+                <img class='techpro__img'src="img/modelo-z.svg" alt="model-x">
+            </div>
+        </div>
+    </div>
+    <!--     Contact + footer / 1 grid -->
+    <div class="footer">
+      <div class="footer__contact">
+        <pictures>
+            <source
+            size="1920w"
+            srcset="./img/newsletter.avif 1920w"
+            type="image/avif"
+          />
+          <source size="1920w" srcset="./img/newsletter.webp" type="image/webp" />
+          <source size="1920w" srcset="./img/newsletter.jpg 1920w" type="image/jpg" />
+          <img
+            class="footer__img"
+            loading="lazy"
+            decoding="async"
+            src="img/newsletter.jpg"
+            lazyalt="headet-img"
+          />
+        </pictures>
+        <div class="footer__content">
+            <h2 class="footer__h2">Get Updates!</h2>
+            <p class="footer__p">Etiam sed mi id eros placerat blandit vel et nisi. Quisque molestie rhoncus scelerisque. Praesent pulvinar justo risus, sed consequat lacus malesuada suscipit. Curabitur commodo bibendum quam et posuere. Aliquam laoreet imperdiet hendrerit. Morbi tincidunt ante non neque sodales pulvinar.</p>
+            <input class="footer__email" type="email" name="" id="" placeholder="email@techpro.com">
+            <input class="footer__submit" type="submit" value="Send">
+        </div>
+      </div>
+      <footer >
+        <h3>All rights reserved by JunhyV </h3>
+      </footer>
+    </div>
+    <!--     Dark mode config -->
+    <script></script>
+  </body>
+</html>
