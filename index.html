@@ -14,6 +14,30 @@
     <title>TechPRO Headsets</title>
   </head>
   <body>
+    <button class="darkMode__button">
+      <p class="darkMode__display">Off</p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-moon-stars"
+        width="48"
+        height="48"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="#ffffff"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path
+          d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"
+        />
+        <path
+          d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"
+        />
+        <path d="M19 11h2m-1 -1v2" />
+      </svg>
+    </button>
     <!--     Headset principal block / 2 grids-->
     <header class="header">
       <pictures>
@@ -50,11 +74,21 @@
     <div class="product">
       <section class="productProperties">
         <div class="productProperties__card">
-          <img
-            class="productProperties__img"
-            src="img/icono-sonido.svg"
-            alt="sound"
-          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-headphones productProperties__img"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#353535"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="13" rx="2" width="5" height="7" />
+            <rect x="15" y="13" rx="2" width="5" height="7" />
+            <path d="M4 15v-3a8 8 0 0 1 16 0v3" />
+          </svg>
           <h2>Great Sound</h2>
           <p>
             Praesent porttitor facilisis tellus ut feugiat. Suspendisse eros
@@ -62,32 +96,58 @@
           </p>
         </div>
         <div class="productProperties__card">
-          <img
-            class="productProperties__img"
-            src="img/icono-garantia.svg"
-            alt="sound"
-          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-thumb-up productProperties__img"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#353535"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3"
+            />
+          </svg>
           <h2>Lifetime Guarantee</h2>
           <p>
             Nullam enim leo, interdum ut finibus ac, fermentum non sem. Morbi
-            pharetra quam non elit euismod, eu fringilla ex mattis. 
+            pharetra quam non elit euismod, eu fringilla ex mattis.
           </p>
         </div>
         <div class="productProperties__card">
-          <img
-            class="productProperties__img"
-            src="img/icono-bateria.svg"
-            alt="sound"
-          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-battery-4 productProperties__img"
+
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#353535"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2"
+            />
+            <line x1="7" y1="10" x2="7" y2="14" />
+            <line x1="10" y1="10" x2="10" y2="14" />
+            <line x1="13" y1="10" x2="13" y2="14" />
+            <line x1="16" y1="10" x2="16" y2="14" />
+          </svg>
           <h2>+20 Hours Of Battery</h2>
           <p>
             Duis eu libero sit amet lectus venenatis fermentum nec lobortis
-            tellus. Quisque ut placerat est, ut dignissim enim. 
+            tellus. Quisque ut placerat est, ut dignissim enim.
           </p>
         </div>
       </section>
+<!--       AboutProduct -->
       <section class="aboutProduct">
-        <div class="aboutProduct__content">
+        <div class="aboutProduct__content bg-primario">
           <h2>About TechPRO</h2>
           <p>
             Vivamus tincidunt vehicula libero, imperdiet porta nulla gravida
@@ -124,42 +184,50 @@
     </div>
     <!--     Headset models / 1 grid -->
     <div class="techpro">
-        <h1 class="techpro__h1-title">Our Models 2023</h1>
-        <div class="techpro__models">
-            <div class="techpro__cards">
-                <div class="text">
-                    <h1 class="techpro__h1 gradient-green">TechPRO-X</h1>
-                    <p >$299</p>
-                </div>
-                <img class='techpro__img'src="img/modelo-x.svg" alt="model-x">
-            </div>
-            <div class="techpro__cards">
-                <div>
-                    <h1 class="techpro__h1 gradient-green">TechPRO-Y</h1>
-                    <p>$399</p>
-                </div>
-                <img class='techpro__img'src="img/modelo-y.svg" alt="model-x">
-            </div>
-            <div class="techpro__cards grid-2">
-                <div>
-                    <h1 class="techpro__h1 gradient-green">TechPRO-Z</h1>
-                    <p>$499</p>
-                </div>
-                <img class='techpro__img'src="img/modelo-z.svg" alt="model-x">
-            </div>
+      <h1 class="techpro__h1-title">Our Models 2023</h1>
+      <div class="techpro__models">
+        <div class="techpro__cards">
+          <div class="text">
+            <h1 class="techpro__h1 gradient-green">TechPRO-X</h1>
+            <p>$299</p>
+          </div>
+          <img class="techpro__img" src="img/modelo-x.svg" alt="model-x" />
         </div>
+        <div class="techpro__cards">
+          <div>
+            <h1 class="techpro__h1 gradient-green">TechPRO-Y</h1>
+            <p>$399</p>
+          </div>
+          <img class="techpro__img" src="img/modelo-y.svg" alt="model-x" />
+        </div>
+        <div class="techpro__cards grid-2">
+          <div>
+            <h1 class="techpro__h1 gradient-green">TechPRO-Z</h1>
+            <p>$499</p>
+          </div>
+          <img class="techpro__img" src="img/modelo-z.svg" alt="model-x" />
+        </div>
+      </div>
     </div>
     <!--     Contact + footer / 1 grid -->
     <div class="footer">
       <div class="footer__contact">
         <pictures>
-            <source
+          <source
             size="1920w"
             srcset="./img/newsletter.avif 1920w"
             type="image/avif"
           />
-          <source size="1920w" srcset="./img/newsletter.webp" type="image/webp" />
-          <source size="1920w" srcset="./img/newsletter.jpg 1920w" type="image/jpg" />
+          <source
+            size="1920w"
+            srcset="./img/newsletter.webp"
+            type="image/webp"
+          />
+          <source
+            size="1920w"
+            srcset="./img/newsletter.jpg 1920w"
+            type="image/jpg"
+          />
           <img
             class="footer__img"
             loading="lazy"
@@ -169,17 +237,53 @@
           />
         </pictures>
         <div class="footer__content">
-            <h2 class="footer__h2">Get Updates!</h2>
-            <p class="footer__p">Etiam sed mi id eros placerat blandit vel et nisi. Quisque molestie rhoncus scelerisque. Praesent pulvinar justo risus, sed consequat lacus malesuada suscipit. Curabitur commodo bibendum quam et posuere. Aliquam laoreet imperdiet hendrerit. Morbi tincidunt ante non neque sodales pulvinar.</p>
-            <input class="footer__email" type="email" name="" id="" placeholder="email@techpro.com">
-            <input class="footer__submit" type="submit" value="Send">
+          <h2 class="footer__h2">Get Updates!</h2>
+          <p class="footer__p">
+            Etiam sed mi id eros placerat blandit vel et nisi. Quisque molestie
+            rhoncus scelerisque. Praesent pulvinar justo risus, sed consequat
+            lacus malesuada suscipit. Curabitur commodo bibendum quam et
+            posuere. Aliquam laoreet imperdiet hendrerit. Morbi tincidunt ante
+            non neque sodales pulvinar.
+          </p>
+          <input
+            class="footer__email"
+            type="email"
+            name=""
+            id=""
+            placeholder="email@techpro.com"
+          />
+          <input class="footer__submit bg-primario" type="submit" value="Send" />
         </div>
       </div>
-      <footer >
-        <h3>All rights reserved by JunhyV </h3>
+      <footer>
+        <h3>All rights reserved by JunhyV</h3>
       </footer>
     </div>
     <!--     Dark mode config -->
-    <script></script>
+    <script>
+
+      const darkModeButton = document.querySelector(".darkMode__button");
+      const darkModeText = document.querySelector(".darkMode__display");
+      const icons = document.querySelectorAll(".icon");
+      const gradients = document.querySelectorAll('.gradient-green');
+      const bgPrimario = document.querySelectorAll('.bg-primario');
+      const body = document.querySelector("body");
+
+      darkModeButton.addEventListener("click", () => {
+        body.classList.toggle("darkMode");
+        icons.forEach((svg) =>
+          svg.classList.toggle("icon-dark")
+        );
+        darkModeText.innerText === "Off"
+          ? (darkModeText.innerText = "On")
+          : (darkModeText.innerText = "Off");
+        gradients.forEach(gradient => 
+        gradient.classList.toggle('gradient-dark'))
+        bgPrimario.forEach(tag => 
+        tag.classList.toggle('bg-primario-dark'))
+      });
+
+      console.log(bgPrimario);
+    </script>
   </body>
 </html>
